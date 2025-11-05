@@ -1,0 +1,10 @@
+6  q
+    7  run testcases/all_new
+    8  run -f testcases/all_new
+    9  p *node
+   10  p node1->next
+   11  p *node1->next
+   12  p node1
+   13  p *node1
+   14  q
+   15  show commands
